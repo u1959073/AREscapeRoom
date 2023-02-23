@@ -1,0 +1,1177 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "AREscapeRoom Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AREscapeRoom Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AREscapeRoom Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"Development",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"Development",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AREscapeRoom Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"Development",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"Test",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"Test",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AREscapeRoom Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"Test",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AREscapeRoom Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AREscapeRoom",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"Debug",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Debug Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AREscapeRoomEditor Win64 Development Build",
+				"AREscapeRoom Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Debug Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AREscapeRoomEditor Win64 Development Build",
+				"AREscapeRoom Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Debug Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=Debug",
+				"-ServerConfig=Debug",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AREscapeRoom Android Debug Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"Debug",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AREscapeRoom Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"Debug",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android DebugGame Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AREscapeRoomEditor Win64 Development Build",
+				"AREscapeRoom Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android DebugGame Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AREscapeRoomEditor Win64 Development Build",
+				"AREscapeRoom Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android DebugGame Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=DebugGame",
+				"-ServerConfig=DebugGame",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AREscapeRoom Android DebugGame Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AREscapeRoom Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"Development",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Development Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AREscapeRoomEditor Win64 Development Build",
+				"AREscapeRoom Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Development Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AREscapeRoomEditor Win64 Development Build",
+				"AREscapeRoom Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Development Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=Development",
+				"-ServerConfig=Development",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AREscapeRoom Android Development Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"Development",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AREscapeRoom Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"Development",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"Test",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Test Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AREscapeRoomEditor Win64 Development Build",
+				"AREscapeRoom Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Test Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AREscapeRoomEditor Win64 Development Build",
+				"AREscapeRoom Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Test Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=Test",
+				"-ServerConfig=Test",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AREscapeRoom Android Test Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"Test",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AREscapeRoom Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"Test",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"Shipping",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Shipping Cook+Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AREscapeRoomEditor Win64 Development Build",
+				"AREscapeRoom Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Shipping Cook",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-Cook"
+			],
+			"dependsOn": [
+				"AREscapeRoomEditor Win64 Development Build",
+				"AREscapeRoom Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Shipping Deploy",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+			"args": [
+				"BuildCookRun",
+				"-ScriptsForProject=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-Project=C:/Users/Marti/git/unrealEngine/AREscapeRoom/AREscapeRoom.uproject",
+				"-noP4",
+				"-ClientConfig=Shipping",
+				"-ServerConfig=Shipping",
+				"-NoCompileEditor",
+				"-utf8output",
+				"-Platform=Android",
+				"-TargetPlatform=Android",
+				"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+				"-Compressed",
+				"-IterativeCooking",
+				"-IterativeDeploy",
+				"-DeploySoToDevice",
+				"-SkipCook",
+				"-Stage",
+				"-Deploy"
+			],
+			"dependsOn": [
+				"AREscapeRoom Android Shipping Build"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"Shipping",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AREscapeRoom Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoom Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AREscapeRoom",
+				"Android",
+				"Shipping",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoomEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoomEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoomEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoomEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AREscapeRoomEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoomEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AREscapeRoomEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoomEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoomEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoomEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoomEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AREscapeRoomEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoomEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AREscapeRoomEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoomEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoomEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoomEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AREscapeRoomEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AREscapeRoomEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "AREscapeRoomEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AREscapeRoomEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Marti\\git\\unrealEngine\\AREscapeRoom\\AREscapeRoom.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		}
+	]
+}
